@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.ceadeal</groupId>
+    <artifactId>javafx-boot</artifactId>
+    <version>1.0.0</version>
+    <name>javafx-boot</name>
+    <description>JavaFx with Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>de.roskenet</groupId>
+            <artifactId>springboot-javafx-support</artifactId>
+            <version>2.1.6</version>
+        </dependency>
+        <!--<dependency>
+            <groupId>de.jensd</groupId>
+            <artifactId>fontawesomefx</artifactId>
+            <version>8.9</version>
+        </dependency>-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.5.6</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>8.8.3</version>
+                <configuration>
+                    <!-- 启动类 -->
+                    <mainClass>com.ceadeal.javafxboot.Application</mainClass>
+                    <!-- 运行文件名 -->
+                    <appName>${project.build.finalName}</appName>
+                    <!-- 图标的位置 默认${basedir}/src/main/deploy -->
+                    <deployDir>${basedir}/src/main/deploy</deployDir>
+<!--                    <bundleArguments>-->
+<!--                        <icon>${basedir}/src/main/resources/icon/icon.ico</icon>-->
+<!--                    </bundleArguments>-->
+                    <!-- 菜单 -->
+                    <needMenu>true</needMenu>
+                    <!-- 桌面图标 -->
+                    <needShortcut>true</needShortcut>
+                    <!-- 公司名称 -->
+                    <vendor>Ceadeal</vendor>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

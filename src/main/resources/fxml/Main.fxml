@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceadeal.javafxboot.ctrl.MainCtrl">
+   <children>
+      <Label layoutX="251.0" layoutY="231.0" text="JavaFx &amp; SpringBoot">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</Pane>

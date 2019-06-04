@@ -1,23 +1,36 @@
 # javafx-boot
 
 #### 介绍
-JavaFx with SpringBoot
 
-#### 软件架构
-软件架构说明
+> 参考：https://segmentfault.com/a/1190000014037443
 
+JavaFx with SpringBoot 快速开始
 
-#### 安装教程
+- [springboot-javafx-support](https://github.com/roskenet/springboot-javafx-support)
+- [JavaFX Maven Plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 配置（application.yml）
 
-#### 使用说明
+```yaml
+javafx:
+  title: JavaFx & SpringBoot
+  appicons: /icon/icon.png
+  stage:
+    width: 640
+    height: 480
+#    style: DECORATED  # javafx.stage.StageStyle [DECORATED, UNDECORATED, TRANSPARENT, UTILITY, UNIFIED]
+#    resizable: false
+```
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 运行效果
+
+![截图](./screenshot/01.png)
+
+![截图](./screenshot/02.png)
+
+#### 打包教程
+
+`mvn jfx:native`
 
 #### 参与贡献
 

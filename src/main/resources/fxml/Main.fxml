@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceadeal.javafxboot.ctrl.MainCtrl">
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceadeal.javafxboot.ctrl.MainCtrl">
    <children>
-      <Label layoutX="251.0" layoutY="231.0" text="JavaFx &amp; SpringBoot">
+      <Label layoutX="250.0" layoutY="210.0" text="JavaFx &amp; SpringBoot">
          <font>
             <Font size="14.0" />
          </font></Label>

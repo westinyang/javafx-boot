@@ -2,7 +2,7 @@ javafx:
   title: JavaFx & SpringBoot
   appicons: /icon/icon.png
   stage:
-#    width: 1280
-#    height: 720
+    width: 640
+    height: 480
 #    style: DECORATED  # javafx.stage.StageStyle [DECORATED, UNDECORATED, TRANSPARENT, UTILITY, UNIFIED]
 #    resizable: false

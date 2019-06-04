@@ -24,9 +24,7 @@ javafx:
 
 #### 运行效果
 
-![截图](./screenshot/01.png)
-
-![截图](./screenshot/02.png)
+![截图](./screenshot/03.gif)
 
 #### 打包教程
 

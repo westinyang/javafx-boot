@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.ceadeal</groupId>
     <artifactId>javafx-boot</artifactId>
-    <version>1.0.0</version>
+    <version>1.0</version>
     <name>javafx-boot</name>
     <description>JavaFx with Spring Boot</description>
 
@@ -64,19 +64,34 @@
                 <configuration>
                     <!-- 启动类 -->
                     <mainClass>com.ceadeal.javafxboot.Application</mainClass>
-                    <!-- 运行文件名 -->
-                    <appName>${project.build.finalName}</appName>
-                    <!-- 图标的位置 默认${basedir}/src/main/deploy -->
-                    <deployDir>${basedir}/src/main/deploy</deployDir>
-<!--                    <bundleArguments>-->
-<!--                        <icon>${basedir}/src/main/resources/icon/icon.ico</icon>-->
-<!--                    </bundleArguments>-->
-                    <!-- 菜单 -->
-                    <needMenu>true</needMenu>
-                    <!-- 桌面图标 -->
-                    <needShortcut>true</needShortcut>
                     <!-- 公司名称 -->
                     <vendor>Ceadeal</vendor>
+                    <!-- 应用名称 ${project.build.finalName} = ${project.artifactId}-${project.version} -->
+                    <appName>${project.build.finalName}</appName>
+                    <!-- 发行版本 -->
+                    <nativeReleaseVersion>${project.version}</nativeReleaseVersion>
+                    <!--
+                        图标设置
+
+                        > 参考：https://stackoverflow.com/questions/15880102/how-to-set-custom-icon-for-javafx-native-package-icon-on-windows
+
+                        # 方式1（按deployDir、appName配置读取ico文件）
+                        # 使用jfx:native打包时，默认会去src/main/deploy/package/windows/${appName}.ico
+                        <deployDir>${project.basedir}/src/main/deploy</deployDir>
+
+                        # 方式2（固定使用一个图标，与版本号无关）
+                        # 优先级高于第一种方式
+                        <bundleArguments>
+                            <icon>${project.basedir}/src/main/resources/icon/icon.ico</icon>
+                        </bundleArguments>
+                     -->
+                    <bundleArguments>
+                        <icon>${project.basedir}/src/main/resources/icon/icon.ico</icon>
+                    </bundleArguments>
+                    <!-- 桌面图标 -->
+                    <needShortcut>true</needShortcut>
+                    <!-- 菜单设置 -->
+                    <needMenu>true</needMenu>
                 </configuration>
             </plugin>
         </plugins>

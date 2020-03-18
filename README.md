@@ -1,11 +1,11 @@
 # javafx-boot
 
 #### 介绍
+JavaFx+SpringBoot快速开始脚手架，应用示例。非SpringBoot版本请移步至该仓库：https://gitee.com/westinyang/javafx-start
 
-> 参考：https://segmentfault.com/a/1190000014037443
+> 参考资料：https://segmentfault.com/a/1190000014037443
 
-JavaFx with SpringBoot 快速开始
-
+Maven插件
 - [springboot-javafx-support](https://github.com/roskenet/springboot-javafx-support)
 - [JavaFX Maven Plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)
 

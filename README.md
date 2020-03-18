@@ -1,7 +1,7 @@
 # javafx-boot
 
 #### 介绍
-JavaFx+SpringBoot快速开始脚手架，应用示例。非SpringBoot版本请移步至该仓库：https://gitee.com/westinyang/javafx-start
+JavaFx+SpringBoot快速开始脚手架，应用示例。非SpringBoot版本请移步至该仓库：[javafx-start](https://gitee.com/westinyang/javafx-start)
 
 > 参考资料：https://segmentfault.com/a/1190000014037443
 

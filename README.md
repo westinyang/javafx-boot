@@ -1,3 +1,5 @@
+![LOGO](./src/main/resources/icon/icon.png)
+
 # javafx-boot
 
 #### 介绍

@@ -1,3 +1,10 @@
+#### JavaFX系列框架项目导航
+- **[JDK8 & JavaFX & SpringBoot](https://gitee.com/westinyang/javafx-boot)**
+- [JDK8 & JavaFX](https://gitee.com/westinyang/javafx-start)
+- [JDK11+ & JavaFX15](https://gitee.com/westinyang/javafx-jdk11-start)
+
+---
+
 ![LOGO](./src/main/resources/icon/icon.png)
 
 # javafx-boot

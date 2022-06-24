@@ -1,4 +1,6 @@
-## JavaFX系列框架项目导航
+[Gitee](https://gitee.com/westinyang/javafx-start) | [Gtihub](https://github.com/westinyang/javafx-start)
+
+# JavaFX系列项目模板
 - **[JDK8 & JavaFX & SpringBoot](https://gitee.com/westinyang/javafx-boot)** `加持SpringBoot，项目示例，Maven打包插件带可执行程序`
 - [JDK8 & JavaFX](https://gitee.com/westinyang/javafx-start) `不依赖SpringBoot，项目示例，Maven打包插件带可执行程序`
 - [JDK11+ & JavaFX15](https://gitee.com/westinyang/javafx-jdk11-start)  

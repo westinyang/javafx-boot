@@ -1,4 +1,4 @@
-[Gitee](https://gitee.com/westinyang/javafx-start) | [Gtihub](https://github.com/westinyang/javafx-start)
+[Gitee](https://gitee.com/westinyang/javafx-boot) | [Gtihub](https://github.com/westinyang/javafx-boot)
 
 # JavaFX系列项目模板
 - **[JDK8 & JavaFX & SpringBoot](https://gitee.com/westinyang/javafx-boot)** `加持SpringBoot，项目示例，Maven打包插件带可执行程序`

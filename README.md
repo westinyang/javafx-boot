@@ -1,5 +1,3 @@
-[Gitee](https://gitee.com/westinyang/javafx-boot) | [Gtihub](https://github.com/westinyang/javafx-boot)
-
 # JavaFX系列项目模板
 - **[JDK8 & JavaFX & SpringBoot](https://gitee.com/westinyang/javafx-boot)** `加持SpringBoot，项目示例，Maven打包插件带可执行程序`
 - [JDK8 & JavaFX](https://gitee.com/westinyang/javafx-start) `不依赖SpringBoot，项目示例，Maven打包插件带可执行程序`
@@ -11,7 +9,12 @@
 
 ![LOGO](./src/main/resources/icon/icon.png)
 
-# 介绍
+# javafx-boot
+
+- [Gitee](https://gitee.com/westinyang/javafx-boot) 
+- [Gtihub](https://github.com/westinyang/javafx-boot)
+
+## 介绍
 JavaFx+SpringBoot快速开始脚手架，应用示例。非SpringBoot版本请移步至该仓库：[javafx-start](https://gitee.com/westinyang/javafx-start)
 
 > 参考资料：https://segmentfault.com/a/1190000014037443
@@ -20,8 +23,7 @@ Maven插件
 - [springboot-javafx-support](https://github.com/roskenet/springboot-javafx-support)
 - [JavaFX Maven Plugin](https://github.com/javafx-maven-plugin/javafx-maven-plugin)
 
-# 配置（application.yml）
-
+## 配置文件
 ```yaml
 javafx:
   title: JavaFx & SpringBoot
@@ -33,15 +35,15 @@ javafx:
 #    resizable: false
 ```
 
-# 运行效果
+## 运行效果
 
 ![截图](./screenshot/03.gif)
 
-# 打包教程
+## 打包教程
 
 `mvn jfx:native`
 
-# 参与贡献
+## 参与贡献
 
 1. Fork 本仓库
 2. 新建 Feat_xxx 分支

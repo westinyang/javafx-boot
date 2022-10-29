@@ -43,6 +43,11 @@ javafx:
 
 `mvn jfx:native`
 
+## 技术交流
+
+- 知识星球：https://t.zsxq.com/07r8E7t2c  
+<a href="https://t.zsxq.com/07r8E7t2c"><img src="./screenshot/3.jpg" width="400"></a>
+
 ## 参与贡献
 
 1. Fork 本仓库
